@@ -12,7 +12,7 @@ pub = rospy.Publisher('joint_states', JointState, queue_size=1000)
 bmarker = BallMarker(color['GREEN'])
 
 # Joint names
-joint_names = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
+jnames = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
                'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
 # Joint Configuration (only for the limb joints)
 q = np.array([0, 0, 0, 0, 0, 0])
