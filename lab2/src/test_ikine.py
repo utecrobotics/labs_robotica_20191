@@ -13,13 +13,13 @@ bmarker      = BallMarker(color['RED'])
 bmarker_des  = BallMarker(color['GREEN'])
 
 # Joint names
-joint_names = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
-               'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
+jnames = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
+          'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
 
 # Desired position
 xd = np.array([0.94, 0.125, 0.249])
 # Initial configuration
-q0  = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+q0 = np.array([0.0, -1.0, 1.7, -2.2, -1.6, 0.0])
 # Inverse kinematics
 q = ikine_ur5(xd, q0)
 
