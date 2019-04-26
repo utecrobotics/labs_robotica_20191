@@ -6,6 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /Axes1
       Splitter Ratio: 0.5
     Tree Height: 565
   - Class: rviz/Selection
@@ -118,6 +119,21 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: visualization_marker
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.200000003
+      Name: Axes
+      Radius: 0.0199999996
+      Reference Frame: <Fixed Frame>
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -158,10 +174,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.375398368
+      Pitch: 0.215398267
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.45539737
+      Yaw: 1.37539685
     Saved: ~
 Window Geometry:
   Displays:
