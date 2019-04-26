@@ -13,8 +13,8 @@ bmarker = BallMarker(color['GREEN'])
 
 # Joint names
 jnames = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',
-               'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
-# Joint Configuration (only for the limb joints)
+          'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
+# Joint Configuration
 q = np.array([0, 0, 0, 0, 0, 0])
 
 # End effector with respect to the base

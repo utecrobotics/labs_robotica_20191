@@ -38,7 +38,7 @@ jstate = JointState()
 jstate.header.stamp = rospy.Time.now()
 jstate.name = jnames
 # Add the head joint value (with value 0) to the joints
-jstate.position = np.hstack((np.array([0]), q))
+jstate.position = q
 
 # Loop rate (in Hz)
 rate = rospy.Rate(100)
