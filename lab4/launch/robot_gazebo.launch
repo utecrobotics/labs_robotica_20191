@@ -23,6 +23,6 @@
   <!-- Spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false"
         output="screen"
-	args="-urdf -param robot_description -model robot"/>
+        args="-urdf -model robot -param robot_description "/>
 
 </launch>
